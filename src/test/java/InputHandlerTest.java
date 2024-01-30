@@ -21,7 +21,7 @@ public class InputHandlerTest {
 
     }
     @Test
-    public void testValidStringInput() {
+    void testValidStringInput() {
         String input = "test";
         System.setIn(new ByteArrayInputStream(input.getBytes()));
 
@@ -30,7 +30,7 @@ public class InputHandlerTest {
     }
 
     @Test
-    public void testReadIntOutOfRangeInput() {
+    void testReadIntOutOfRangeInput() {
         //Enters 15 then 7
         String input = "15\n7";
         System.setIn(new ByteArrayInputStream(input.getBytes()));
@@ -41,7 +41,7 @@ public class InputHandlerTest {
     }
 
     @Test
-    public void testReadIntNonIntegerInput() {
+    void testReadIntNonIntegerInput() {
         //Enters "test" then 8
         String input = "test\n8";
         System.setIn(new ByteArrayInputStream(input.getBytes()));
