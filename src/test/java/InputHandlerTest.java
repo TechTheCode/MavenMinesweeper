@@ -6,7 +6,7 @@ import java.io.InputStream;
 public class InputHandlerTest {
     @Test
     public void testReadInt(){
-        //String prompt = "12";
+        String prompt = "12";
         //InputHandler.readInt("12",1,34);
 
     }
