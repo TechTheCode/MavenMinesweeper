@@ -42,5 +42,4 @@ public class GameBoardTest {
         board.toggleFlag(4, 4);
         Assertions.assertFalse(board.isFlagged(4, 4), "The cell at (5, 5) should not be flagged");
     }
-
 }
