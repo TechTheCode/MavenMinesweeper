@@ -8,5 +8,6 @@ public class InputHandlerTest {
     public void testReadInt(){
         String prompt = "12";
         //InputHandler.readInt("12",1,34);
+
     }
 }
